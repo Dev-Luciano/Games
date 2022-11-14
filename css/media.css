@@ -1,11 +1,11 @@
-@media screen and (max-width:360px){
+@media screen and (max-width: 390px){
     body{
         height: 360px;
         width: 640px;
         overflow-x: hidden;
     }
     header{
-       padding-left: 30px;
+       padding-left: 5px;
        width: 360px;
        border: none;
     }
@@ -23,7 +23,7 @@
         font-size: 30px;
     }
     .slider{
-        margin-left: 80px;
+        margin-left: 45px;
         width: 710px;
     }
     h1.seg{
@@ -38,7 +38,7 @@
     }
     div.corpo{
         width: 780px;
-        padding-left: 25px;
+        padding-right: 10px;
         
     }
     .corpo section:hover .intem{
