@@ -99,14 +99,12 @@
         padding-bottom: 50px;
     }
     .par{
-        font-size: 38px;
+        font-size: 42px;
         padding-right: 40px;
     }
     .sobre{  
         width: 600px;
         margin-bottom: 50px;
     }
-    footer{
-        display: none;
-    }
+    
 }
