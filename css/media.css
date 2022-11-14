@@ -1,7 +1,5 @@
 @media screen and (max-width: 390px){
     body{
-        height: 360px;
-        width: 640px;
         overflow-x: hidden;
     }
     header{
