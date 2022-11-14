@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    background-size: cover;
+}
+body h1{
+    margin: 25px 0px 15px 0px;
+}
+.logo .lg{
+    margin: 0px 0px 5px 0px;
+    font-size: 30px;
+    background-color: red;
+    border-radius: 50px;
+    padding: 1px 15px;
+}
+header{
+    margin-bottom: 50px;
+    background-color: black;
+    padding-top: 10px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+}
+p{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+header ul{
+    padding-top: 13px;
+    display: flex;
+    gap: 30px;
+    padding-right: 30px;
+    list-style: none;
+    padding-bottom: 15px;
+}
+header a{
+    font-weight: 550;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.enter{
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 5px 15px;
+    color: white;
+    background: rgb(214, 3, 3);
+}
+header a:hover{
+    transition: cubic-bezier(0.3s);
+    color: white;
+}
+.enter:hover{
+    background: rgb(167, 3, 3);
+    color: white;
+}
+
+.slider{
+    margin-top: 30px;
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+}
+.slides{
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+.slides input{
+display: none;
+}
+.slide{
+    width: 25%;
+    position: relative;
+    transition: 2s;
+}
+.slide img{
+    width: 800px;
+}
+.manual-navigation{
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+.manual-btn{
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+.manual-btn:hover{
+    background-color: white;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0%;
+}
+#radio2:checked ~ .first{
+    margin-left: -25%;
+}
+#radio3:checked ~ .first{
+    margin-left: -50%;
+}
+#radio4:checked ~ .first{
+    margin-left: -75%;
+}
+
+.navigation-auto div{
+    border: 2px solid #20a6ff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.navigation-auto{
+    position: absolute;
+    width: 800px;
+    margin-top: 360px;
+    display: flex;
+    justify-content: center;
+}
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color: white;
+}
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background-color: white;
+}
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background-color: white;
+}
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background-color: white;
+}
+
+h1{
+    margin-top: 70px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+div.corpo{
+    position: relative;
+    margin-left: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+.corpo section{
+    background-size: cover;
+    position: relative;
+    width: 250px;
+    height: 200px;
+    margin: 15px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    background-size: cover;
+}
+
+.corpo section .intem {
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.5s;
+}
+.corpo section:hover .intem{
+    height: 200px;
+    width: 250px;
+    background-color: rgba(128, 128, 128, 0.603);
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.card1{
+    background-image: url(../img/card1.jpg);
+    color: white;
+    height: 200px;
+    width: 250px;
+}
+.card2{
+    background-image: url(../img/card2.jpg);
+    color: white;
+    height: 200px;
+    width: 250px;
+}
+.card3{
+    background-image: url(../img/card3.webp);
+    background-position: center;
+    color: white;
+    height: 200px;
+    width: 250px;
+}
+.card4{
+    background-image: url(../img/card4.jpg);
+    background-position: center;
+    color: white;
+    height: 200px;
+    width: 250px;
+}
+.intem,a{
+    font-weight: bold;
+    padding-top: 35px;
+    padding-right: 10px;
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+}
+.whatsapp{
+    color: green;
+}
+strong{
+    color: rgb(180, 6, 6);
+}
+.conta{
+    color: rgb(184, 5, 5);
+}
+.sobre{
+    margin-bottom: 250px;
+}
+
+footer h1{
+    padding: 30px;
+    background-color: black;
+    border-top: 1px solid white;
+}
+
