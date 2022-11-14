@@ -8,7 +8,7 @@
        border: none;
     }
     header ul{
-        gap: 40px;
+        gap: 25px;
         
     }
     .logo .lg{
@@ -18,11 +18,11 @@
         margin-left: 20px;
     }
     header a{
-        font-size: 30px;
+        font-size: 35px;
     }
     .slider{
-        margin-left: 45px;
-        width: 710px;
+        margin-left: 50px;
+        width: 745px;
     }
     h1.seg{
         width: 640px;
@@ -36,7 +36,7 @@
     }
     div.corpo{
         width: 780px;
-        padding-right: 10px;
+        padding-left: 8px;
         
     }
     .corpo section:hover .intem{
@@ -76,6 +76,9 @@
         width: 630px;
         margin-left: 52px;
     }
+    .noticia{
+        margin-bottom: 30px;
+    }
     .container{
         display: flex;
         flex-direction: column;
@@ -103,5 +106,7 @@
         width: 600px;
         margin-bottom: 50px;
     }
-    
+    footer{
+        display: none;
+    }
 }
